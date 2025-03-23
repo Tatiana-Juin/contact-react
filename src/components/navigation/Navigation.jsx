@@ -19,7 +19,7 @@ export default function Navigation(){
                     {/* ICON  */}
                     <IoChatbubbleEllipsesSharp size={30} style={{color:"purple"}}/>
                 </div>
-
+                {/* pour le lien */}
                 <div className={fstyle.liens}>
                     <ul>
                         {liens.map(el => <li key={el}> {el} </li>)}
