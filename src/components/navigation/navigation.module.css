@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    width: 80vw;
+    /* border:1px solid red; */
+    justify-content: space-between;
+
+}
+
+.navigation .icon{
+    display: flex;
+    /* border:1px solid purple; */
+    margin-top:14px
+}
+
+.navigation .liens{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .liens ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.navigation .liens ul li{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
