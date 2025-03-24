@@ -24,7 +24,9 @@ export default function Navigation(){
                     <ul>
                         {liens.map(el => <li key={el}> {el} </li>)}
                     </ul>
+                    
                 </div>
+                
             </div>
 
         </>
