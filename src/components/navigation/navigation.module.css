@@ -1,3 +1,4 @@
+/* DIV REGROUPANT TOUTE LA BARRE DE NAVIGATION */
 .navigation {
     display: flex;
     width: 80vw;
@@ -7,12 +8,14 @@
 
 }
 
+/* POUR L'ICON */
 .navigation .icon{
     display: flex;
     /* border:1px solid purple; */
     margin-top:14px
 }
 
+/* POUR LES LIENS  */
 .navigation .liens{
     display: flex;
     flex-direction: row;
