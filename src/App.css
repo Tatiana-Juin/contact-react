@@ -1,7 +1,8 @@
 .tous-element{
-  /* border:1px solid blue; */
+  
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
+  
+  align-items: center;
   width:99vw;
+  flex-direction: column;
 }
