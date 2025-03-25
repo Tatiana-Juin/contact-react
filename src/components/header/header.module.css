@@ -9,6 +9,8 @@
     
 }
 
+
+
 .header h1{
 
     font-size:40px;
@@ -24,3 +26,6 @@
     margin-top: 20px;
 }
 
+.header div{
+    display: flex;
+}
