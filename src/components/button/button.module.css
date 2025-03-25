@@ -1,0 +1,22 @@
+.bouton{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bouton button{
+    /* background-color: blue; */
+    all: unset;
+    padding:13px;
+    width:200px;
+    color:white;
+    background-color: purple;
+    cursor: pointer;
+    /* border:none; */
+    border: 1px solid purple;
+    border-radius: 15px;
+    outline: none; /* Enlever l'effet de focus */
+    transition: none;
+    text-align: center; 
+    
+}

@@ -1,9 +1,15 @@
-export default function Button(){
+import fstyle from './button.module.css'
+
+export default function Button({icon,text} ){
 
      return(
         <>
-            {/* <p>Bouton</p> */}
-        
+           <div className= {fstyle.bouton} >
+
+                <button > {icon} {text} </button>
+
+           </div>
+
         </>
      )
 }
