@@ -1,0 +1,44 @@
+/* DIV REGOURPANT TOUS LES ELEMENT  */
+.formulaire{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    width: 80vw;
+    
+}
+/* POUR LE TITRE DU COMPOSANT  */
+.formulaire h2{
+    font-size:29px;
+    
+}
+
+.formulaire div{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.formulaire  div form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire div form label{
+    margin-bottom: 5px;
+}
+
+.formulaire div form input{
+    border: 1px solid #ccc;
+    width:400px;
+    padding:3px;
+    margin-bottom: 15px;
+}
+
+
+.formulaire div form textarea{
+    border: 1px solid #ccc;
+    height: 100px ;
+}

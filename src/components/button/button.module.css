@@ -19,6 +19,7 @@
     text-align: center; 
 }
 
+/* STYLE POUR LE 1er BUTTON */
 .bouton button:first-child{
     margin-right:15px;
 }
