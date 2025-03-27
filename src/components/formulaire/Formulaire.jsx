@@ -31,6 +31,7 @@ export default function Formulaire(){
                                 <label htmlFor="message">Message</label>
                                 <textarea name="message" id="message"></textarea>
 
+                                {/* appelle du composant Button */}
                                 <Button text="ENVOYER" />
 
                             </form>
